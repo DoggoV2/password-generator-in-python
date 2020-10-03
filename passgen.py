@@ -48,7 +48,7 @@ def passgen():
     print(bb)
 
 # saving password to file
-    choice = input("Do you want to save the password (Y/N): ")
+    choice = input("Do you want to save the password (Y/N): ").lower()
 
     if choice == "y":
         account = input("What service are you signing up for: ")
